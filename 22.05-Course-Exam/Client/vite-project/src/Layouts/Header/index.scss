@@ -1,0 +1,40 @@
+header{
+
+// position: relative;
+.course{
+    // position: absolute;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+
+    .course-nav{
+        nav{
+
+            ul{
+                display: flex;
+                gap: 20px;
+            }
+        }
+    }
+
+    .course-contact{
+background-color: #ffb606;
+padding: 28px;
+font-family: "Open-Sans";
+font-size: 18px;
+    }
+}
+.header-title{
+    text-align: center;
+    margin-top:50%;
+    font-size: 72px;
+    color: white;
+}
+
+}
+
+
+
+

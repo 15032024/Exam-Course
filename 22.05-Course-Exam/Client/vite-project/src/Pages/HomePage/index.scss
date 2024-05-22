@@ -1,0 +1,78 @@
+#section-1 {
+  background-image: url("https://preview.colorlib.com/theme/course/images/slider_background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  .header-title {
+    text-align: center;
+    position: relative;
+    h6 {
+      position: absolute;
+      top: 500px;
+      left: 200px;
+      font-size: 50px;
+      color: white;
+    }
+  }
+
+  .header-cards {
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    .card {
+      :hover {
+        background-color: gold;
+      }
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      background-color: #1a1a1a;
+      padding: 4rem;
+    }
+  }
+}
+
+#section-3 {
+    
+  margin: 50px 0;
+
+  .form-section {
+    display: flex;
+    justify-content: space-between;
+    .section-left {
+      text-align: center;
+      padding: 20px;
+      background-color: #ffb606;
+      h2 {
+        color: white;
+      }
+      button {
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+      }
+    }
+
+    .section-right {
+      background-image: url("https://preview.colorlib.com/theme/course/images/search_background.jpg");
+      text-align: center;
+      padding: 20px;
+      .inputs {
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+
+        input {
+          padding: 8px;
+        }
+      }
+    }
+  }
+}
